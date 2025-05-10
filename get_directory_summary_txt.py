@@ -30,7 +30,7 @@ def generate_folder_summary(folder_path, num_lines=5):
     return "\n".join(folder_summary)
 
 # 使用原始字符串
-folder_path = r'D:\Users\DELL\Desktop\B教学_教学与人才培养_B10_本科班主任_生工22级班主任_2024'  # 替换为您的文件夹路径
+folder_path = r'C:\Users\xijia\Desktop\summary\本科生班主任'  # 替换为您的文件夹路径
 
 summary = generate_folder_summary(folder_path)
 
